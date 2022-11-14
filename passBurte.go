@@ -155,8 +155,8 @@ func main() {
 	links := flag.String("links", "links.txt", "爆破IP地址文件")
 	hash := flag.String("hash", "", "密码md5 或 base64,暂只支持md5/base64")
 	charset := flag.String("charset", "", "编码方式")
-	viewresp := flag.Bool("viewresp", true, "是否显示响应数据")
-	viewerr := flag.Bool("viewerr", false, "是否显示报错信息")
+	viewresp := flag.Bool("viewresp", true, "是否显示响应数据,默认显示")
+	viewerr := flag.Bool("viewerr", false, "是否显示报错信息,默认关闭")
 	success := flag.Bool("success", false, "是否只显示成功的数据")
 	time_sec := flag.Float64("time-sec", 0, "设置请求间隔，单位秒")
 

@@ -18,8 +18,8 @@
         -success             是否只显示成功的数据                          
         -time-sec float      设置请求间隔，单位秒                          
         -user string         爆破账号                                      
-        -viewerr             是否显示报错信息                              
-        -viewresp            是否显示响应数据
+        -viewerr             是否显示报错信息,默认关闭                              
+        -viewresp            是否显示响应数据,默认显示
     
 ### 使用
 复制请求的http数据包到`1.txt`中,设置好账号和密码标记.
@@ -44,7 +44,7 @@
     Cookie: Hm_lvt_520556228c0113270c0c772027905838=1668054376; PHPSESSID=1t4lik619631cpu1gqddsac8lj; security=low
     Connection: close
 
-复制请求url到`links.txt`
+复制请求地址到`links.txt`
 
     http://127.0.0.1/
     http://127.0.0.1/
