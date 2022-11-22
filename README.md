@@ -8,7 +8,7 @@
 # 使用方法
 ### 参数
     使用 -h 显示帮助信息
-        -charset string      编码方式                                      
+        -charset string      响应数据编码方式                                      
         -hash string         密码md5 或 base64,暂只支持md5/base64                                      
         -links string        爆破IP地址文件 (default "links.txt")          
         -passwd string       爆破密码,使用逗号隔开 (default "123456,admin")
